@@ -60,61 +60,63 @@ h2 {
 }
 
 .product-color {
-    display: flex;
-    gap: 14px;
-    justify-content: center;
-    border: 2px dotted lightgray;
-    padding: 8px 20px;
-    border-radius: 40px;
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  border: 2px dotted lightgray;
+  padding: 8px 20px;
+  border-radius: 40px;
+}
+footer {
+  color: black;
+  padding: 20px 0;
+  text-align: center;
+  a:link{
+    text-decoration: none;
   }
-  
-  .product-color span {
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    cursor: pointer;
-    padding: 4px;
-    transition: 0.5s;
+  a:visited{
+    color: #00b4d8
   }
-  
-  .product-color span:hover {
-    transition: 0.5s;
-    transform: scale(1.7);
-  }
-  footer {
-    background-color: #4ece26;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  #red {
-    background-color: crimson;
-  }
-  
-  #black {
-    background-color: rgba(0, 0, 0, 0.562);
-  }
-  
-  #orange {
-    background-color: #fe7427;
-  }
-  
-  #Naranja {
-    background-color: #fe7427;
-  }
-  
-  #Green {
-    background-color: green;
-  }
-  
-  #Blue {
-    background-color: dodgerblue;
-  }
-  
-  .buy-btn {
-    cursor: pointer;
-  }
+}
 
+#red {
+  background-color: #E6404D;
+}
 
-  
+#brown {
+  background-color: brown;
+}
+
+#Green {
+  background-color: green;
+}
+
+#Blue {
+  background-color: blue;
+}
+
+#black {
+  background-color: black;
+}
+
+#IngleAzul {
+  background-color: dodgerblue;
+}
+
+.product-color button {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 4px;
+  transition: 0.5s;
+}
+
+.product-color button:hover {
+  transition: 0.5s;
+  transform: scale(1.7);
+}
+
+.buy-btn {
+  cursor: pointer;
+}

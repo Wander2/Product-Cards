@@ -26,8 +26,8 @@ h2 {
   margin: 10px;
 }
 
-.cards :hover {
-  box-sizing: 0px 20px 50px -10px rgba(0, 0, 0, 0.2);
+.cards:hover {
+  box-shadow: 0px 20px 50px -10px rgba(0, 0, 0, 0.2);
 }
 
 .cards img {
@@ -42,7 +42,7 @@ h2 {
 }
 
 .product-detail {
-  color: gray;
+  color: grey;
   padding: 0 14px;
 }
 
@@ -67,11 +67,17 @@ h2 {
   padding: 8px 20px;
   border-radius: 40px;
 }
+
 footer {
-  
   color: black;
   padding: 20px 0;
   text-align: center;
+}
+footer a:link {
+  text-decoration: none;
+}
+footer a:visited {
+  color: #00b4d8;
 }
 
 #red {
@@ -79,19 +85,23 @@ footer {
 }
 
 #brown {
-  background-color: #8B4513;
+  background-color: brown;
 }
 
 #Green {
   background-color: green;
 }
 
-#light-green {
-  background-color:light green;
+#Blue {
+  background-color: blue;
 }
 
 #black {
   background-color: black;
+}
+
+#IngleAzul {
+  background-color: dodgerblue;
 }
 
 .product-color button {
@@ -110,4 +120,4 @@ footer {
 
 .buy-btn {
   cursor: pointer;
-}
+}/*# sourceMappingURL=style.css.map */
